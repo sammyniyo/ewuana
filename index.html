@@ -93,9 +93,11 @@
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
-      <nav class="container">
-        <a href="#" class="nav__logo"> <i class="ri-smartphone-line"></i></a>
-        <div class="nav__menu" id="nav__menu">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+        <i class="ri-smartphone-line"></i>
+        </a>
+        <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
             <li class="nav__item">
               <a href="#home" class="nav__link">Home</a>
@@ -114,7 +116,7 @@
             </li>
           </u>
           <!-- Close button-->
-          <div class="nav__close" id="nav__close">
+          <div class="nav__close" id="nav-close">
             <i class="ri-close-line"></i>
           </div>
         </div>
@@ -133,10 +135,60 @@
     <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
-      <section class="home section" id="home"></section>
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/product-1.png" alt="image" class="home__img"> 
+          <div class="home__data">
+            <h1 class="home__title">
+              EWUANA <br>
+              <span>YOUR</span> <br> PHONE CASES
+            </h1>
+            <div class="home__bottons">
+              <a href="#" class="button">
+                <span>
+                <i class="ri-arrow-right-line"></i>
+                </span>
+                GO TO SHOP
+              </a>
+              <a href="#" class="button__link">
+                MORE DETAILS
+              </a>
+            </div>
+            <p class="home__description">
+              We craft more than just phone covers; we create caves for your cherished devices.
+              Our phone covers are designed to provide unparalleled protection while reflecting your unique style and personality.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <!--==================== NEWS ====================-->
-      <section class="new section" id="new"></section>
+      <section class="new section" id="new">
+        <div class="new__container container grid">
+          <div class="new__data">
+            <h2 class="section__title">
+            NEW CASES FOR<br> YOUR PHONE!
+            </h2>
+            <p class="new__description">
+              We understand the importance of convenience. That's why our phone caves are designed to enhance your phone experience, offering a seamless blend of style and usability.
+            </p>
+          </div>
+          <div class="new__content grid">
+            <article class="new__card">
+              <img src="assets/img/ewuana-a-lit-one.png" alt="image" class="new__img">
+              <h2 class="new__title">A Lit One Phone Case</h2>
+            </article>
+            <article class="new__card">
+              <img src="assets/img/ewuana-bana.png" alt="image" class="new__img">
+              <h2 class="new__title">Bana Phone Case</h2>
+            </article>
+            <article class="new__card">
+              <img src="assets/img/ewuana-inana.png" alt="image" class="new__img">
+              <h2 class="new__title">Inana Phone Case</h2>
+            </article>
+          </div>
+        </div>
+      </section>
 
       <!--==================== SHOP ====================-->
       <section class="shop section" id="shop"></section>

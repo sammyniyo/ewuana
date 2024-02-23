@@ -8,4 +8,6 @@ Made by Samuel NIYOMUHOZA
 
 samshakul@gmail.com
 
-sammuhoza.pro
+🪐sammuhoza.pro
+check the demo here👇🏼
+https://creative-bunny-a15754.netlify.app/
